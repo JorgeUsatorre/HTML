@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <form method="post"=action="mailto:usatorre1210@gmail.com" enctype="text/plain">
+        <fieldset style="border:2px solid; border-top:2px dashed ;">
+            <legend>Formulario</legend>
+            <p><strong>NIF:</strong> <input style="background-color:rgb(231, 231, 250) ;" type="text" name="Caja basica 1"></p>
+            <p><strong>Nombre:</strong> <input style="background-color:rgb(231, 231, 250) ;" type="text" name="Caja basica 2" size="BO" maxlength="15"></p>
+            <p><strong>Apellido:</strong><input style="background-color:rgb(231, 231, 250) ;" type="text" name="Caja basica 2" size="BO" maxlength="15"></p> 
+            <td><strong>Edad:</strong></td>
+            <br>
+            <input type="radio" name="T" value="1"><strong>15-19</strong><br>
+            <input type="radio" name="T" value="2"checked><strong>20-29</strong><br>
+            <input type="radio" name="T" value="3"><strong>30-40</strong><br>
+            <br>
+            <td><strong>Estado civil:</strong></td>
+            <br>
+            <select style="background-color:rgb(231, 231, 250) ;" name="Estado civil" multiple size="4">
+                <option>Soltero</option>
+                <option>Casado</option>
+                <option>Divorciado</option>
+            </select>  
+            <br>
+            <br>
+            <td><strong>Aficiones:</strong></td>
+            <br>
+            <input type="checkbox" name="TC" value="1"><strong>Cine</strong><br>
+            <input type="checkbox" name="TC" value="2" checked><strong>Deportes</strong><br>
+            <input type="checkbox" name="TC" value="3"><strong>Lectura</strong><br>
+            <input type="checkbox" name="TC" value="3"><strong>Senderismo</strong><br>
+            <br>
+            <td><strong>Comentarios:</strong></td>
+            <br>
+            <textarea style="background-color:rgb(231, 231, 250) ;" name="c4" rows="10" cols="30">Escribe aquí tus        comentarios</textarea>
+        </fieldset>
+    </form>
+</body>
+
+</html>
